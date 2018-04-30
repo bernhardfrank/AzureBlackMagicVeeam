@@ -53,5 +53,7 @@ $VMLocalAdminSecurePassword = ConvertTo-SecureString "SehrSehrK0mplexesPWD!" -As
 #then create the New VM
 #Add Custom Script Extension
 
+#Do you see the SQL Server Configuration features for your VM in the Azure Portal?
+
 
 #Clean up :-)
