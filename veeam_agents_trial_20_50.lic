@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Licenses><License><![CDATA[Agent for Linux (Server)=20
+Agent for Linux (Workstation)=50
+Company=Veeam Software - Activities Tracking
+Description=Copyright 2018 Veeam, Inc. All Rights Reserved. The Software Product is protected by copyright and other intellectual property laws and treaties. Veeam or its suppliers own the title, copyright, and other intellectual property rights in the Software Product. Veeam reserves all rights not expressly granted to you in EULA. The Software Product is licensed, not sold. Veeam grants to you a nonexclusive nontransferable license to use the Software Product, provided that you agree with EULA.
+E-mail=david.bewernick@veeam.com
+Expiration date=07/06/2018
+First name=David
+Last name=Bewernick
+License information=Licensed product:\tVeeam Agent for Linux\nLicense type:\tEvaluation License\nLicensed to:\tVeeam Software - Activities Tracking\nContact person:\tDavid Bewernick\nAgent for Linux (Server):\t20\nAgent for Linux (Workstation):\t50
+License type=Evaluation License
+Product=Veeam Agent for Linux
+Support expiration date=07/06/2018
+Version=2.x
+Signature=09191DEC5F4DB8E8B85345700E48E8BC3FD0C6C6B75A4E5C1D6472B3A6FAE01E678ECAA66A849DE446CE8927DD11741EC5D043E90A5E3F6855C13473032CD2B72D4CA7A926EA5E62988DCEBB7731B814ED232A6096B059ABCC16825B5707E902F1E5DA7390AA4CB21EC86545FC5A662DA3DD5E2E98A8E1C226D154B41F3A981C
+]]></License><License><![CDATA[Agent for Windows (Server)=20
+Agent for Windows (Workstation)=50
+Company=Veeam Software - Activities Tracking
+Description=Copyright 2018 Veeam, Inc. All Rights Reserved. The Software Product is protected by copyright and other intellectual property laws and treaties. Veeam or its suppliers own the title, copyright, and other intellectual property rights in the Software Product. Veeam reserves all rights not expressly granted to you in EULA. The Software Product is licensed, not sold. Veeam grants to you a nonexclusive nontransferable license to use the Software Product, provided that you agree with EULA.
+E-mail=david.bewernick@veeam.com
+Expiration date=07/06/2018
+First name=David
+Last name=Bewernick
+License information=Licensed product:\tVeeam Agent for Microsoft Windows\nLicense type:\tEvaluation License\nLicensed to:\tVeeam Software - Activities Tracking\nContact person:\tDavid Bewernick\nAgent for Windows (Server):\t20\nAgent for Windows (Workstation):\t50
+License type=Evaluation License
+Product=Veeam Agent for Microsoft Windows
+Support expiration date=07/06/2018
+Version=2.x
+Signature=FD30371F17AADAC756122A74FE4A5965C2E2C75E019D1A4502DB7BF4E60FDA68483562FB315EA1A29052E542AC1A52E0B839CED29BA8712469CC0E9B001BFDABAE796E07BB104089846CE23B29D094BD4E1F6BC2C7894044918E663E234321E40AE18D727E215A09D2B50F1004E3E70329F535B63243117EEB542B0D7BD5AA5C
+]]></License></Licenses>
