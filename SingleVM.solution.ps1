@@ -26,7 +26,7 @@ $VMLocalAdminUser = "LocalAdminUser"
 $OSDiskName = "myOSDisk"
 $DataDiskName = "myDataDisk"
 $PremiumDiskTypes = @{"P4"=32 ; "P6"=64 ; "P10"=128 ; "P20"=512 ; "P30"=1024 ; "P40"=2048 ; "P50"=4095}    #https://docs.microsoft.com/en-us/azure/virtual-machines/windows/premium-storage#premium-storage-disk-limits
-$VMLocalAdminSecurePassword = ConvertTo-SecureString "*************" -AsPlainText -Force 
+$VMLocalAdminSecurePassword = ConvertTo-SecureString "************" -AsPlainText -Force 
 #endregion
 
 #Login to Azure
@@ -92,7 +92,7 @@ $NIC = New-AzureRmNetworkInterface -Name $NICName -ResourceGroupName $RG -Locati
     $VM = Set-AzureRmVMOSDisk -VM $VM -Name $OSDiskName -Caching $OSDiskCaching -CreateOption FromImage -DiskSizeInGB 128
 
     #attach DataDisk
-    $DataDiskConfig = New-AzureRmDiskConfig -SkuName PremiumLRS -DiskSizeGB $PremiumDiskTypes.P10 -Location $location -CreateOption Empty 
+    $DataDiskConfig = New-AzureRmDiskConfig -SkuName Premium_LRS -DiskSizeGB $PremiumDiskTypes.P10 -Location $location -CreateOption Empty 
     $DataDisk = New-AzureRmDisk -ResourceGroupName $RG -DiskName $DataDiskName -Disk $DataDiskConfig 
     $VM = Add-AzureRmVMDataDisk -VM $vm -Name $DataDiskName -Caching $DataDiskCaching -ManagedDiskId $DataDisk.Id -Lun 1 -CreateOption Attach
 
